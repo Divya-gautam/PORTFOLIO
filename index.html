@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divya Gautam - Frontend Developer</title>
+    <link rel="icon" href="icon/favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();" ></i></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            
+            <div class="first">
+                <h2>Hello, I'm<br> <span>Divya Gautam</span></h2>
+            <h3>I'm a Frontend Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+            </div>
+            <div>
+                <!-- <img class="immm" src="./images/fc3481a9-18a9-44ad-8d9a-b76ec157e013.jpg " alt=""> -->
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/divyaimg.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Divya Gautam</b>, an aspiring Frontend Developer , along with I have hands on experience in Visual Studio 2019 and SQL Server.</h2>
+                <p>I have mastered technologies like Front-End Web Development -HTML 5, CSS 3, Bootstrap 4, JavaScript , jQuery, Bash Command Line, Git, GitHub and Version Control,
+                    and  I also familiar with DSA and other languages like C++,Python.</p><br>
+                <p>I am persuing my graduation from ABES Institute Of Technology in Bachelors of Technology in Computer Science & Engineering with the specialization Data Science (2020-2024).</p>
+                <div class="heading bottom">
+                    <a href="./images/Divya_FrontendDeveloper.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b>Divya Gautam<br>
+                        <!-- <b>Age:</b> 23 -->
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b>divyagautam224@gmail.com<br>
+                        <b>Location:</b>Ghaziabad
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Services i Offer to my Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="https://cdn-icons-png.flaticon.com/128/5433/5433819.png" class="fa" alt="">
+                <h3>UI UX Developer</h3> 
+                <p>Designing graphic elements and building navigation components.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" class="fa" alt="">
+                <h3>Front End Developer</h3>
+                <p> Developing new user-facing features, determining the structure and design of web pages.</p>
+            </div>
+           
+            <div class="servicesBx">
+                <img src="https://cdn-icons-png.flaticon.com/128/4157/4157361.png" class="fa" alt="">
+                <h3>Freelancer</h3>
+                <p>Create visual elements, content, and products to capture users attention.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://cdn-icons-png.flaticon.com/128/6151/6151691.png" class="fa" alt="">
+                <h3>E-Commerce Project</h3>
+                <p>Activity of electronically buying or selling of products on online services or over the Internet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>Projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Temperature-Converter/" target="_blank">
+                    <img src="images/Temlp.png" alt="">
+                    <p>Temperature Converter</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Github-Profile/" target="_blank">
+                    <img src="images/search.jpg" alt="">
+                    <p>Search GitHub Users</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Drink-Water-System/" target="_blank">
+                    <img src="images/Screenshot (122).png" alt="">
+                    <p>Drink Water System</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Landing-Page/" target="_blank">
+                    <img src="images/Landing Page.png" alt="">
+                    <p>Landing Page</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Rotating-Navigation/" target="_blank">
+                    <img src="images/rotationnav.jpg" alt="">
+                    <p>Rotating Navigation</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://divya-gautam.github.io/Amazon-Clone/ " target="_blank">
+                    <img src="images/Screenshot (121).png" alt="">
+                    <br> 
+                    <br>
+                    <p>Amazon Clone</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/Divya-gautam" target="_blank" class="btn" style="color:#322e2e;">View My Github Profile</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Nagla Brahman, Gutahara, Sahpau, Sadabad, Hathras<br>Uttar Pradesh<br>Pin code-281307</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>9119740089</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>divyagautam224@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon"> 
+                            <a href="https://github.com/Divya-gautam" target="_blank">
+                                <i class="fa fa-github-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/DivyaGa83878272" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                                
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/divya-gautam-b45194210/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://instagram.com/_iq_dramas?igshid=MzRlODBiNWFlZA==" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    
+                    <input class="formfield" 
+                    type="email" 
+                    name="email" 
+                    id="" 
+                    placeholder="Enter your email address" />
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2023, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/fa9b377764.js" crossorigin="anonymous"></script>
+</body>
+</html>
